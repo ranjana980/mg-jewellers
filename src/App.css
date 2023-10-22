@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,117 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Navbar.css */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.carousel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.slider-box{
+  display: flex;
+  flex: 0 0 33.33%; /* Set the width for each item to display three items per row */
+  padding: 0 10px; 
+}
+
+
+/* Footer.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
 }
