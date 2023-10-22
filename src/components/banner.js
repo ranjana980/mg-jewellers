@@ -34,15 +34,13 @@ function BannerSlider() {
         responsive={responsive}
         interval={7000}
         className="mt-2"
-        height={600}
-        width={850}
         swipeable={true}
         infiniteLoop={true}
         autoPlay={true}
         dynamicHeight={true}
       >
-        <div className="slider-box  gap-5 ml-[101px]">
-          <div className="w-[50%] pr-">
+        <div className="slider-box lg:flex-nowrap lg:flex xl:flex-nowrap lg:flex  xs:flex-wrap-reverse gap-5 lg:ml-[101px] xs:ml-[0px]">
+          <div className="lg:w-[50%] xs:w-[100%] ">
             <b className="text-red-500 text-[30px]">Wedding Necklace </b>
             <p className="text-start">
               Elevate your special day with our exquisite collection of wedding
@@ -63,7 +61,7 @@ function BannerSlider() {
               that will adorn your neck and your heart on your special day.
             </p>
           </div>
-          <div className="pl-[40px] pr-[20px]">
+          <div className="lg:pl-[40px] lg:pr-[20px] xs:pl-[10px]">
             {" "}
             <img
               src={Magalsutra}
@@ -72,8 +70,8 @@ function BannerSlider() {
             />
           </div>
         </div>
-        <div className="slider-box  gap-5 ml-[101px]">
-          <div className="w-[50%] ">
+        <div className="slider-box lg:flex-nowrap lg:flex xl:flex-nowrap lg:flex  xs:flex-wrap-reverse gap-5 lg:ml-[101px] xs:ml-[0px]">
+          <div className="w-[50%] xs:w-[100%]">
             <b className="text-red-500 text-[30px]">Errings</b>
             <p className="text-start">
               Our exquisite collection of gold earrings is a testament to
@@ -96,7 +94,7 @@ function BannerSlider() {
               moment.
             </p>
           </div>
-          <div className="pl-[40px] pr-[20px]">
+          <div className="pl-[40px] pr-[20px] xs:pl-[10px]">
             {" "}
             <img
               src={Errings}
@@ -105,8 +103,8 @@ function BannerSlider() {
             />
           </div>
         </div>
-        <div className="slider-box  gap-5 ml-[101px]">
-          <div className="w-[50%] ">
+        <div className="slider-box lg:flex-nowrap lg:flex xl:flex-nowrap lg:flex  xs:flex-wrap-reverse gap-5 lg:ml-[101px] xs:ml-[0px]">
+          <div className="w-[50%] xs:w-[100%]">
             <b className="text-red-500 text-[30px]">Bracelate</b>
             <p className="text-start">
               Discover timeless elegance with our exquisite Gold Bracelets.
@@ -120,7 +118,7 @@ function BannerSlider() {
               that will be cherished for generations to come.
             </p>
           </div>
-          <div className="pl-[40px] pr-[20px]">
+          <div className="pl-[40px] pr-[20px] xs:pl-[10px]">
             <img
               src={Bracelate}
               alt="Jewelry 1"
@@ -128,8 +126,8 @@ function BannerSlider() {
             />
           </div>
         </div>
-        <div className="slider-box  gap-5 ml-[101px]">
-          <div className="w-[50%] ">
+        <div className="slider-box lg:flex-nowrap lg:flex xl:flex-nowrap lg:flex  xs:flex-wrap-reverse gap-5 lg:ml-[101px] xs:ml-[0px]">
+          <div className="w-[50%] xs:w-[100%]">
             <b className="text-red-500 text-[30px]">Rings</b>
             <p className="text-start">
               Discover a world of exquisite craftsmanship and timeless beauty
@@ -146,7 +144,7 @@ function BannerSlider() {
               and grace.
             </p>
           </div>
-          <div className="pl-[40px] pr-[20px]">
+          <div className="lg:pl-[40px] lg:pr-[20px] xs:pl-[10px]">
             <img
               src={Rings}
               alt="Jewelry 1"

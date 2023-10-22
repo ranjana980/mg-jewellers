@@ -76,7 +76,7 @@ export default function JewelrySection() {
     },
   };
   return (
-    <div className="pl-[60px] pr-[60px] mt-[40px]">
+    <div className="pl-[60px] pr-[60px] mt-[40px] xs:mt-[0px]">
       <b className="text-[35px] text-start text-red-500">Wedding Necklaces</b>
       <Carousel
         responsive={responsive}
