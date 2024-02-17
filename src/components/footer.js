@@ -27,7 +27,7 @@ function Footer() {
             <p>Stay connected on social media:</p>
             <div className="social-icons">
               <a href="#" className="social-icon">Facebook</a>
-              <a href="https://www.instagram.com/manchgurujewellers/?igshid=MzRlODBiNWFlZA%3D%3D" className="social-icon">Instagram</a>
+              <a href="#" className="social-icon">Instagram</a>
               <a href="#" className="social-icon">Twitter</a>
             </div>
           </div>
